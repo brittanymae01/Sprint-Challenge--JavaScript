@@ -40,6 +40,8 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
+//Because its nested inside of nestedFunction and therefore has access to the variables within the scopes its nested inside.
+
 
 const external = "I'm outside the function";
 
